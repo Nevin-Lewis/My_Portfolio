@@ -1,7 +1,82 @@
-
 html{
-    background: url("./Background.jpg") no-repeat center;
-    background-size: cover;
-    height: 100%;
+    background: linear-gradient(to right, rgba(50, 177, 44, 0.3) 0%,  rgba(50, 177, 44, 0.3) 60%, transparent 60%, transparent 100%);
+    background-size: auto;
+    transition: background-image 1s ease-out;}
+body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+h1 {
+    color: rgb(50, 177, 160);
+    font-size: 125px;
+    list-style: none;
+    text-align:left;
+    position: fixed;
+    left: 17%;
+    top: 10%;
+    line-height: 0.9;
+   }
 
+footer {
+    border: 3px solid black;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgba(50, 177, 160, 0.678);
+    opacity: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+}    
+a{
+    text-decoration: none;
+    color: unset;
 }
+a:visited{
+    text-decoration: none;
+    color: unset;
+}
+button {
+    display: flex;
+    color: olive;
+    border-radius: 10px;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    opacity: 50%;
+    top: 8%;}
+img {
+    border: 4px solid black;
+    border-radius: 9%; 
+    max-height: 80%;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    z-index: -1;
+}
+button {
+    position: fixed;
+    left: 58%;
+    top: 5%;
+    border: 2px black solid;
+    height: fit-content;
+}
+
+/* #camp {
+    height: auto;
+    width: 20%;
+    position: relative;
+    top: 10%;
+}
+#t4k{
+    height: auto;
+    position: relative;
+    width: 20%;
+    top: 10%;
+    left: 55%;} */
+
+    
