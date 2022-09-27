@@ -44,7 +44,7 @@ header li{
     }
 .sidebar{
     flex: 2;
-    text-align: center;
+    text-align: center
     
 }
 .content {
@@ -61,6 +61,11 @@ header li{
 }
 .major {
     height: 100%;
+    width: 75%;
+    display: flex;
+    text-align: center;
+
+    margin-left: 15%;
 }
 .products {
     padding: 10px;
@@ -113,6 +118,10 @@ footer li {
 a{
     text-decoration: none;
     color: unset;
+}
+section a img{
+ width: 100%;
+ height: auto;
 }
 a:visited{
     text-decoration: none;
