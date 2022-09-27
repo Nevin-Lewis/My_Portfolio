@@ -8,39 +8,63 @@
     <title>Nevin Lewis Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1> Nevin Lewis</h1>
-    <div>   
-        <h2>
-            <ul>
+    <header class="row">
+        <h1 class="content"> Nevin Lewis</h1>
+    <div class="sidebar">   
+    
                 <li> <a href="#about_Me">About Me</a> </li>
                 <li> <a href="#my_work"> My Work</a></li>
                 <li> <a href="#resume" >My Resume</a></li>
                 <li> <a href="#contact_info">Contact Info</a></li>
-            </ul>
-        </h2>
+    
     </div>     
     </header>
-    <section>
-
-    </article>
-        <div id="about_Me">
+    <main>
+    <section id ="about_Me" class="row" >
+        <div class="content">
             <h1> About Me</h1>
-            <img class= profile src="./Assets/T4K.jpg">
+            <img class= profile src="./Assets/T4K.jpg"> 
+        </div> 
+        <div class="sidebar">
             <p> My passions include cooking, coffee and cycling. </p>
-        <p> I cycled from Austin to Anchorage in the fight against cancer</p>
+            <p> I cycled from Austin to Anchorage in the fight against cancer</p>
         </div>
-    
-        <div id="my_work">
-        <h1> My Work</h1>
-        </div>
-        <div id="resume">    
-        <h1>  <a href="./Assets/Revised Resume.pdf"> My Resume</a></h1>
-        <iframe src="./Assets/Revised Resume.pdf"></iframe>
-        </div>
-        
-       
     </section>
+    <section id="my_work" class="row">
+        <div class="content">
+        <h1 > My Work</h1>
+        <div class="products">
+            <section class="card">
+              <header>Test 0</header>
+            </section>
+            <section class="card">
+              <header>Test 1</header>
+            </section>
+            <section class="card">
+              <header>Test 2</header>
+            </section>
+            <section class="card">
+              <header>Test 3</header>
+            </section>
+        </div>
+        </div>
+        <div class="sidebar">
+            <section class="major">
+                <header>Major Project</header>
+              </section>
+        </div>
+        </section>
+
+    <section class="row" id ="resume">
+        <div class="content"> </div>
+        <div class="sidebar">    
+            <h1>  <a href="./Assets/Revised Resume.pdf"> My Resume</a></h1>
+            <iframe src="./Assets/Revised Resume.pdf"></iframe>
+            </div>
+    </section>
+
+</main>
+
     <footer id="contact_info">
         <h1> Contact info</h1>
         <div>
@@ -51,6 +75,7 @@
                 <li> <a href="https://www.facebook.com/nevin.lewis.3/"> <img src="./Assets/Facebook.webp"> </a></li>
             </ul>
         </div>
+        
     </footer>
 </body>
 </html>
